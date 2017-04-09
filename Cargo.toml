@@ -2,7 +2,12 @@
 name = "closestmatch"
 version = "0.1.0"
 authors = ["Marco Concetto Rudilosso <marcoconcettorudilosso@gmail.com>"]
+repository = "https://github.com/Maaarcocr/closestmatch-rs.git"
+homepage = "https://github.com/Maaarcocr/closestmatch-rs.git"
+license = "MIT"
+readme = "README.md"
+description = "This library fuzzy matches an input string to a list of target strings."
+
 
 [dependencies]
-chashmap = "2.2.0"
 rayon = "0.7.0"
