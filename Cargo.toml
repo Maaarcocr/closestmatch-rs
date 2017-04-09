@@ -1,0 +1,8 @@
+[package]
+name = "closestmatch"
+version = "0.1.0"
+authors = ["Marco Concetto Rudilosso <marcoconcettorudilosso@gmail.com>"]
+
+[dependencies]
+chashmap = "2.2.0"
+rayon = "0.7.0"
