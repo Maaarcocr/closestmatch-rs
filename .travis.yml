@@ -1,8 +1,16 @@
 language: rust
+before_script:
+- pip install 'travis-cargo<0.2' --user &&
 rust:
 - stable
 - beta
 - nightly
+
+script: 
+- cargo build
+- cargo test --verbose
+- travis-cargo --only stable doc
+
 matrix:
   allow_failures:
   - rust: nightly
