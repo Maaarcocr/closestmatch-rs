@@ -1,13 +1,13 @@
 [package]
 name = "closestmatch"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Marco Concetto Rudilosso <marcoconcettorudilosso@gmail.com>"]
 repository = "https://github.com/Maaarcocr/closestmatch-rs.git"
 homepage = "https://github.com/Maaarcocr/closestmatch-rs.git"
 license = "MIT"
 readme = "README.md"
 description = "This library fuzzy matches an input string to a list of target strings."
-
+documentation = "https://maaarcocr.github.io/closestmatch-rs"
 
 [dependencies]
 rayon = "0.7.0"
